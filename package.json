@@ -1,0 +1,16 @@
+{
+  "name": "ws-node",
+  "version": "1.0.0",
+  "description": "WebSocket server - nodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=8999 node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sa77",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.4.5"
+  }
+}
